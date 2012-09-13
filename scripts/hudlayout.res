@@ -1,5 +1,44 @@
 "Resource/HudLayout.res"
 {
+	CrossHairKonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairKonrWings"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"-100"
+
+		"xpos"			"c-58"
+		"ypos"			"c-49"
+		"wide"			"102"
+		"tall"			"100"
+
+		"font"			"CrossHairKonrWings"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+
+	CrossHairRequest
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairRequest"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"-100"
+
+		"xpos"			"c-12"
+		"ypos"			"c-11"
+		"wide"			"24"
+		"tall"			"22"
+
+		"font"			"CrossHairRequest"
+		"labelText"		"+"
+		"fgcolor"		"150 150 150 255"
+		"textAlignment"	"center"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
